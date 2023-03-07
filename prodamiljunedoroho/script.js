@@ -36,3 +36,4 @@
  
 //const user = "ivan";
 //alert(`пивет${user}
+console,console.log;
