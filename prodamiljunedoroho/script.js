@@ -36,4 +36,25 @@
  
 //const user = "ivan";
 //alert(`пивет${user}
-console,console.log;
+//console,console.log;
+
+
+
+
+const numberOfFilms = prompt( "Сколько фильмов вы уже посмотрели ?","")
+
+const personalMovieDB = {  
+  count: numberOfFilms,
+  movies:{},
+  actors:{},
+  genres:[],
+private : false
+  };
+  const a = prompt( "один из последних фильмов которие вы посмотрели ",""),
+ b = prompt( "на сколько оцените его ?",""),
+ c = prompt( "один из последних фильмов которие вы посмотрели ",""),
+   d = prompt( "на сколько оцените его ?","");
+   personalMovieDB.movies[a] = b;
+   personalMovieDB.movies[c] = d;
+
+   console .log( personalMovieDB);
